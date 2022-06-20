@@ -8,5 +8,5 @@
 
 
 # Start Solution
-1. Open and execute ,in SQL Server, the database script located in "TRANZACT_Challenge/Database/TRANZACT_Challenge_Db.sql"
-2. Open the Solution with Visual Studio, wich is located in "TRANZACT_Challenge/Backend/TranzactChallenge/TranzactChallenge.sln" and start the TRANZACT_Challenge.API project
+1. Open and execute ,in SQL Server, the database script located in "RealPlazaChallenge/Database/RealPlazaChallenge.sql"
+2. Open the Solution with Visual Studio, wich is located in "RealPlazaChallenge/Backend/RealPlazaChallenge/RealPlazaChallenge.sln" and start the RealPlazaChallenge.API project
