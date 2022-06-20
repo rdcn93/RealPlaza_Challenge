@@ -1,0 +1,14 @@
+[
+    {
+        "icon": "bx:error",
+        "content": "Se agotaron las casacas"
+    },
+    {
+        "icon": "bx:package",
+        "content": "Se añadió un lote de ropa deportiva"
+    },
+    {
+        "icon": "bx:cart",
+        "content": "Nuevo record de ventas en Jeans"
+    }
+]

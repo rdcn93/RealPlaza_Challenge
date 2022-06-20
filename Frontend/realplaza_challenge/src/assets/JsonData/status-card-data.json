@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "bx:shopping-bag",
+        "count": "1,195",
+        "title": "Productos Stock"
+    },
+    {
+        "icon": "bx:cart",
+        "count": "9,005",
+        "title": "Ventas diarias"
+    },
+    {
+        "icon": "bx:dollar-circle",
+        "count": "$22,632",
+        "title": "Ingreso Total"
+    },
+    {
+        "icon": "bx:receipt",
+        "count": "211",
+        "title": "Devoluciones"
+    }
+]

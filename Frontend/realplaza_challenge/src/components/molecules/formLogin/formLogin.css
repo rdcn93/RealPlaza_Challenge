@@ -1,0 +1,84 @@
+.container_Login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* background: rgb(34,193,195);
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.form_Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginform {
+  width: 80%;
+  margin: auto;
+  background-color: #FFFFFF;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+}
+
+.Logo {
+  width: 120px;
+}
+
+
+/* GRID AND RESPONSIVE */
+
+.containerLogin {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  justify-items: stretch;
+  align-items: stretch;
+  grid-template-areas:
+    "SliderSection LoginSection";
+}
+
+.LoginSection {
+  grid-area: LoginSection;
+  width: 100%;
+}
+
+.SliderSection {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.87)), url("https://realplaza.vtexassets.com/assets/vtex.file-manager-graphql/images/021ffb30-bbf0-4641-ae2c-a16ea89c516b___f1def77e4d2418118ce79563d66e0e8b.jpg");
+  /* background-color: black; */
+  grid-area: SliderSection;
+}
+
+.SliderSection div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 2rem 6rem 5rem 5rem;
+  color: hsl(240deg 7% 97%);
+  gap: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .containerLogin {
+    display: flex;
+  }
+
+  .SliderSection {
+    display: none;
+  }
+}
